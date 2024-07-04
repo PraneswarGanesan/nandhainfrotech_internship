@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /uploads/   
+Disallow: /log.php    
+Disallow: /app.log    
+Disallow: /dbconnection.php   
