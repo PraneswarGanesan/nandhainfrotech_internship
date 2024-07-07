@@ -1,0 +1,28 @@
+Imports and Setup:
+
+Imports necessary libraries like React, axios for HTTP requests, react-leaflet for interactive maps, react-bootstrap-typeahead for the search bar, and Leaflet CSS for map styling.
+Custom Marker Icon:
+
+Defines a custom marker icon using Leaflet's L.Icon.
+MapClickHandler:
+
+Uses useMapEvents from react-leaflet to handle map click events. It captures the latitude and longitude of each click, updates the points state, and sends the data to the server using savePointToServer.
+savePointToServer:
+
+An asynchronous function using axios to post latitude, longitude, and additional data to a server endpoint (savepoint.php). It logs success or error messages.
+Geofencing Component:
+
+Sets up state variables for latitude, longitude, points (array of markers), options (for search suggestions), and isLoading (to manage loading state).
+handleSearch:
+
+Asynchronously fetches location suggestions based on user input using OpenStreetMap's Nominatim API and updates the options state.
+handleLocationSelect:
+
+Updates the map center, latitude, and longitude based on user-selected location from the search results. It also sets a single point on the map.
+FlyToLocation:
+
+Uses useMap hook from react-leaflet to smoothly animate the map to a new location when latitude or longitude changes.
+Rendering:
+
+Renders UI elements including a title, latitude, longitude, point count, a search bar (AsyncTypeahead) for location search, and a MapContainer from react-leaflet showing tiles from OpenStreetMap, markers for points, and a polygon if more than two points are present.
+This code integrates interactive mapping, location search, marker handling, and server communication, making it a comprehensive example for a geofencing application in React.
