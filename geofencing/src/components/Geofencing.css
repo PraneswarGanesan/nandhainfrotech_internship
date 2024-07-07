@@ -1,0 +1,27 @@
+.search-bar-container {
+    margin-top: 55px;
+    position: relative;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    width: 50%;
+    max-width: 600px;
+    margin-left: 10vh;
+  }
+
+  
+  .search-bar-container .rbt {
+    width: 100%;
+  }
+  .map{
+    margin-top: 30px;
+   margin-left: 10vh;
+   margin-right: 10vh;
+   margin-bottom: 10vh;
+  }
+  .latlong{
+        align-items: left;
+        margin-top: 8vh ;
+  }
+  
