@@ -83,7 +83,8 @@ During my internship days at Nandha Infrotech, I had the opportunity to work on 
 This internship provided a comprehensive understanding of various web development technologies and practices. The hands-on experience gained during this period will be instrumental in future projects and professional development.
 
 ## Contact
-099524 98572
+praneswarganesan@gmail.com
++91 9940810490
 
 For any questions or collaborations, feel free to reach out.
 
